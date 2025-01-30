@@ -6,89 +6,132 @@
     <meta name = 'keywords' content = 'Kanstantsin, cv, resume'>
     <meta name = 'description' content = "This is a webpage about Kanstantsin's Malinouski resume">
     <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="images/IMG_3028.JPG" alt="My Foto" width = '200'>
 
-    <h1>Kanstantsin Malinouski</h1>
+    <div class="container">
+        <div class="info">
+            <img src="images/IMG_3028.JPG" alt="My Foto" class="avatar">
 
-    <p>
-        I am an 18 year-old student in my fourth semester of a Bachelor's degree in <strong>Applied Informatics in Cracow University of Economics</strong>. 
-        <br>With my strong interpersonal skills, an openness to new challenges and a passion for learning and development,<br> I am
-        eager to gain practical experience and develop a career in the computer science field.
+            <div class="info-text">
+                <h1>Kanstantsin Malinouski</h1>
+
+                <p>
+                    I am an 18 year-old student in my fourth semester of a Bachelor's degree in Applied Informatics in Cracow University of Economics. 
+                    With my strong interpersonal skills, an openness to new challenges and a passion for learning and development, I am
+                    eager to gain practical experience and develop a career in the computer science field.
+                <em>I also like travelling, doing sports, programming and styding</em>.
+                </p>
+
+                <h4>My social media:</h4>
+
+                <a href = "https://www.instagram.com/dj_kostyan4ik/" target = '_blank'>Instagram</a>
+                |
+                <a href = "https://t.me/kostyan4ik18" target = '_blank'>Telegram</a>
+                |
+                <a href = "https://www.facebook.com/people/Konstanty-Malinowski/pfbid0mnk9VZpKheDwf7Y5L1psrMtVtTjaikHUCa56PrfSrbHgEV3PLBqDuZgW56Kwne5cl/" target = '_blank'>Facebook</a>
+            </div>
+        </div>
+
+        <div class="card bg-green">
+            <h2>My hobbies</h2>
+
+            <ol class="list">
+                <li>Travelling</li>
+                <li>Playing Football and watching it</li>
+                <li>Learning Languages</li>
+                <li>Cooking</li>
+                <li>Fishing</li>
+                <li>Coding</li>
+                <li>Gaminig</li>
+            </ol>
+        </div>
+
+        <!-- <div class="card bg-red">
+            <h2>Work experience</h2>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Job title</title></th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>LPTTracker</td>
+                        <td>Frontend</td>
+                        <td>2015-2016</td>
+                    </tr>
+                    <tr>
+                        <td>Epam</td>
+                        <td>Software Engineer</td>
+                        <td>2016-2017</td>
+                    </tr>
+                    <tr>
+                        <td>Software Outsourcing Services</td>
+                        <td>Senior Frontend</td>
+                        <td>2017-2019</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> -->
+        <div class="card bg-red">
+            <h2>My soft-skills</h2>
+
+            <ul class="skills-list">
+                <li>Adaptability</li>
+                <li>Teamwork</li>
+                <li>Communication skills</li>
+                <li>Time management</li>
+                <li>Willingness to learn new technologies</li>
+                <li>Self-motivation</li>
+                <li>Well-organized and detail-oriented</li>
+            </ul>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>My certificates</h2>
+
+            <ul class="link-list">
+                <li><a href="#">IELTS</a></li>
+                <li><a href="#">Udemy Complete C# Masterclass</a></li>
+            </ul>
+        </div>
+
+        
+
+        <form action="/" class="form">
+            <h2>Contact me</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Your name:</label>
+                    <input type="text" id="name" placeholder="Write your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your email:</label>
+                    <input type="email" id="email" placeholder="Write your email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your message:</label>
+                <textarea id="message" cols="20" rows="5" placeholder="Write your message..."></textarea>
+            </div>
+
+            <input class="btn" type="submit" value="Send form!">
+        </form>
+
         <br>
-    <em>I also like travelling, doing sports, programming and styding</em>.
-    </p>
-
-    <h4>My social media:</h4>
-
-    <a href = "https://www.instagram.com/dj_kostyan4ik/" target = '_blank'>Instagram</a>
-    |
-    <a href = "https://t.me/kostyan4ik18" target = '_blank'>Telegram</a>
-    |
-    <a href = "https://www.facebook.com/people/Konstanty-Malinowski/pfbid0mnk9VZpKheDwf7Y5L1psrMtVtTjaikHUCa56PrfSrbHgEV3PLBqDuZgW56Kwne5cl/" target = '_blank'>Facebook</a>
-    
-    <h2>My hobbies</h2>
-    <ol>
-        <li>Travelling</li>
-        <li>Playing Football and watching it</li>
-        <li>Learning Languages</li>
-        <li>Cooking</li>
-        <li>Fishing</li>
-        <li>Coding</li>
-        <li>Gaminig</li>
-    </ol>
-
-    <!-- <h2>Work experience</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Job title</title></th>
-                <th>Year</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>LPTTracker</td>
-                <td>Frontend</td>
-                <td>2015-2016</td>
-            </tr>
-            <tr>
-                <td>Epam</td>
-                <td>Software Engineer</td>
-                <td>2016-2017</td>
-            </tr>
-            <tr>
-                <td>Software Outsourcing Services</td>
-                <td>Senior Frontend</td>
-                <td>2017-2019</td>
-            </tr>
-        </tbody>
-    </table> -->
-
-    <h2>Contact me</h2>
-
-    <form action="/">
-        <div>
-            <label for="name">Your name:</label>
-            <input type="text" id="name" placeholder="Write your name">
-        </div>
-
-        <div>
-            <label for="email">Your email:</label>
-            <input type="email" id="email" placeholder="Write your email">
-        </div>
-
-        <div>
-            <label for="message">Your message:</label>
-            <br>
-            <textarea id="message" cols="20" rows="5" placeholder="Write your message..."></textarea>
-        </div>
-
-        <input type="submit" value="Send form!">
-    </form>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
 
 </body>
 </html>
